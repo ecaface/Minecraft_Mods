@@ -2,6 +2,12 @@
 
 kill @e[type=minecraft:marker,tag=mcbr_candidate_probe]
 kill @e[type=minecraft:armor_stand,tag=mcbr_candidate_probe]
+
+# Remove duplicate overlapping candidates at the same coordinates (due to scan overlap or chunk lag)
+execute as @e[type=minecraft:marker,tag=mcbr_chest_candidate] at @s run tag @e[type=minecraft:marker,tag=mcbr_chest_candidate,distance=..0.1,limit=1,sort=nearest] add mcbr_keep
+kill @e[type=minecraft:marker,tag=mcbr_chest_candidate,tag=!mcbr_keep]
+tag @e[type=minecraft:marker,tag=mcbr_keep] remove mcbr_keep
+
 # Tag center candidates dynamically (within 32 blocks of center marker)
 execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run tag @e[type=minecraft:marker,tag=mcbr_chest_candidate,distance=..32] add mcbr_chest_center
 
