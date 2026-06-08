@@ -2,4 +2,4 @@
 # Lobby is separated from the combat zone.
 
 gamemode adventure @a
-tp @a 0 100 0
+tp @a @e[type=minecraft:marker,tag=mcbr_lobby_spawn,limit=1]
