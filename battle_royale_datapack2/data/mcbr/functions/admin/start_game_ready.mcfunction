@@ -41,3 +41,6 @@ gamemode adventure @a[tag=mcbr_playing]
 tellraw @a [{"text":"[mcbr] Match countdown started.","color":"yellow"}]
 title @a[tag=mcbr_playing] title {"text":"Battle Royale","color":"gold"}
 title @a[tag=mcbr_playing] subtitle [{"text":"Match begins in ","color":"yellow"},{"score":{"name":"$countdown_seconds","objective":"mcbr.config"},"color":"gold"},{"text":" seconds","color":"yellow"}]
+
+# Automatically scan and generate chest candidates if they don't exist (completes in 10 ticks, during the 60 ticks countdown)
+execute unless entity @e[type=minecraft:marker,tag=mcbr_chest_candidate,limit=1] run function mcbr:map/generate_chest_candidates

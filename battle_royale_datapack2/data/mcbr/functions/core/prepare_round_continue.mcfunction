@@ -6,6 +6,6 @@ function mcbr:map/clear_arena_drops
 function mcbr:loot/cleanup_spawn_caches
 execute if score $arena_restore_enabled mcbr.config matches 1 run function mcbr:map/restore_arena
 execute unless score $arena_restore_enabled mcbr.config matches 1 if score $chest_refill_enabled mcbr.config matches 1 run function mcbr:core/refill_chests
-forceload remove 858 858 1142 1142
+function mcbr:map/forceload_arena_remove
 
 tellraw @a [{"text":"[mcbr] Round preparation complete.","color":"green"}]

@@ -1,9 +1,9 @@
 # Core round reset logic shared by manual and automatic game flow.
 # Before returning everyone to the lobby, run one final cleanup pass for starter chest artifacts and dropped combat entities.
-forceload add 858 858 1142 1142
+function mcbr:map/forceload_arena
 function mcbr:map/clear_arena_drops
 function mcbr:loot/cleanup_spawn_caches
-forceload remove 858 858 1142 1142
+function mcbr:map/forceload_arena_remove
 
 scoreboard players set $state mcbr.state 0
 scoreboard players set $countdown_ticks mcbr.timer 0

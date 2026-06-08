@@ -27,3 +27,6 @@ scoreboard players set $config_initialized mcbr.tmp 1
 tellraw @a [{"text":"[mcbr] Dynamic base coordinates initialized! Spawn X=","color":"gold"},{"score":{"name":"$spawn_x","objective":"mcbr.tmp"},"color":"white"},{"text":", Z=","color":"gold"},{"score":{"name":"$spawn_z","objective":"mcbr.tmp"},"color":"white"}]
 tellraw @a [{"text":"[mcbr] Creating dynamic lobby platform...","color":"gold"}]
 function mcbr:map/build_lobby_platform
+
+# 7. Automatically generate chest candidates for the new map after a 5-second delay to allow chunks to load
+schedule function mcbr:map/generate_chest_candidates 100t replace

@@ -6,7 +6,7 @@
 # Rare chests are chosen only from the central 10 candidates.
 # Previous-round field chest cleanup is handled before this function runs.
 
-forceload add 880 880 1120 1120
+function mcbr:map/forceload_arena
 scoreboard players set $active_count mcbr.tmp 0
 execute as @a[gamemode=!spectator] run scoreboard players add $active_count mcbr.tmp 1
 scoreboard players operation $chest_player_count mcbr.tmp = $active_count mcbr.tmp
@@ -46,7 +46,7 @@ execute as @e[type=minecraft:marker,tag=mcbr_chest_common] at @s if block ~ ~ ~ 
 execute as @e[type=minecraft:marker,tag=mcbr_chest_uncommon] at @s if block ~ ~ ~ minecraft:chest run data merge block ~ ~ ~ {LootTable:"mcbr:chests/br_uncommon"}
 execute as @e[type=minecraft:marker,tag=mcbr_chest_rare] at @s if block ~ ~ ~ minecraft:chest run data merge block ~ ~ ~ {LootTable:"mcbr:chests/br_rare"}
 
-forceload remove 880 880 1120 1120
+function mcbr:map/forceload_arena_remove
 execute if score $chest_player_count mcbr.tmp matches 2 run tellraw @a [{"text":"[mcbr] Field chests active: common 8, uncommon 2, rare 1","color":"yellow"}]
 execute if score $chest_player_count mcbr.tmp matches 3 run tellraw @a [{"text":"[mcbr] Field chests active: common 12, uncommon 5, rare 1","color":"yellow"}]
 execute if score $chest_player_count mcbr.tmp matches 4 run tellraw @a [{"text":"[mcbr] Field chests active: common 16, uncommon 10, rare 2","color":"yellow"}]
