@@ -13,10 +13,10 @@ scoreboard players operation $chest_player_count mcbr.tmp = $active_count mcbr.t
 execute if score $chest_player_count mcbr.tmp matches ..1 run scoreboard players set $chest_player_count mcbr.tmp 2
 execute if score $chest_player_count mcbr.tmp matches 5.. run scoreboard players set $chest_player_count mcbr.tmp 4
 
-tag @e[type=minecraft:marker,tag=mcbr_chest_candidate] remove mcbr_chest_active
-tag @e[type=minecraft:marker,tag=mcbr_chest_candidate] remove mcbr_chest_common
-tag @e[type=minecraft:marker,tag=mcbr_chest_candidate] remove mcbr_chest_uncommon
-tag @e[type=minecraft:marker,tag=mcbr_chest_candidate] remove mcbr_chest_rare
+tag @e[type=minecraft:marker] remove mcbr_chest_active
+tag @e[type=minecraft:marker] remove mcbr_chest_common
+tag @e[type=minecraft:marker] remove mcbr_chest_uncommon
+tag @e[type=minecraft:marker] remove mcbr_chest_rare
 
 # Rare selection from the central 10 only.
 execute if score $chest_player_count mcbr.tmp matches 2..4 run tag @e[type=minecraft:marker,tag=mcbr_chest_center,sort=random,limit=1] add mcbr_chest_rare
