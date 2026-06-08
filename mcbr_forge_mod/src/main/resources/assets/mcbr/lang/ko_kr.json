@@ -1,0 +1,6 @@
+{
+  "commands.mcbr.start.success": "배틀로얄 카운트다운이 시작되었습니다.",
+  "commands.mcbr.start.fail": "배틀로얄 경기를 시작할 수 없습니다.",
+  "commands.mcbr.reset.success": "배틀로얄 경기 리셋이 완료되었습니다.",
+  "commands.mcbr.status": "상태: %s, 참가자: %s, 생존자: %s"
+}

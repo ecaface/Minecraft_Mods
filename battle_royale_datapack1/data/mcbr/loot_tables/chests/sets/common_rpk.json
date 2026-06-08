@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_kinetic_gun",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GunId:\"tacz:rpk\",GunDisplayId:\"tacz:rpk_display\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:40,HasBulletInBarrel:1b}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tacz:ammo",
+          "functions": [
+            { "function": "minecraft:set_nbt", "tag": "{AmmoId:\"tacz:762x39\"}" },
+            { "function": "minecraft:set_count", "count": { "min": 56, "max": 88 } }
+          ]
+        }
+      ]
+    }
+  ]
+}

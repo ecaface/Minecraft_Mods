@@ -1,0 +1,106 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/rare_ai_awp",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/rare_deagle",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/rare_deagle_golden",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/rare_m107",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/rare_m320",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/rare_minigun",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/rare_rpg7",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/rare_taurus500",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/rare_timeless50",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/rare_type_81",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "weight": 4
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/armor_netherite_1",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/armor_netherite_2",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/armor_netherite_3",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/armor_netherite_full",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

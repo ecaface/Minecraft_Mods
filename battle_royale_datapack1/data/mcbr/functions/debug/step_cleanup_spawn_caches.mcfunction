@@ -1,0 +1,1 @@
+function mcbr:loot/cleanup_spawn_caches

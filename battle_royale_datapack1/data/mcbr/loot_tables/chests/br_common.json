@@ -1,0 +1,121 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/common_aa12",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/common_db_long",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/common_db_short",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/common_hk_mp5a5",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/common_m1014",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/common_m4a1",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/common_m870",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/common_scar_l",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/common_spas_12",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/common_ump45",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/common_uzi",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/common_vector45",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 4,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 6
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/armor_iron_1",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/armor_iron_2",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/armor_iron_3",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/armor_iron_full",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

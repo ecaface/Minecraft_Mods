@@ -1,0 +1,380 @@
+[
+  {
+    "id": "tacz:aa12",
+    "display": "tacz:aa12_display",
+    "ammo": "tacz:12g",
+    "capacity": 8,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:ai_awp",
+    "display": "tacz:ai_awp_display",
+    "ammo": "tacz:338",
+    "capacity": 5,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:ak47",
+    "display": "tacz:ak47_display",
+    "ammo": "tacz:762x39",
+    "capacity": 30,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:aug",
+    "display": "tacz:aug_display",
+    "ammo": "tacz:556x45",
+    "capacity": 30,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:b93r",
+    "display": "tacz:b93r_display",
+    "ammo": "tacz:9mm",
+    "capacity": 20,
+    "fire_mode": "BURST"
+  },
+  {
+    "id": "tacz:cz75",
+    "display": "tacz:cz75_display",
+    "ammo": "tacz:9mm",
+    "capacity": 16,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:db_long",
+    "display": "tacz:db_long_display",
+    "ammo": "tacz:12g",
+    "capacity": 2,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:db_short",
+    "display": "tacz:db_short_display",
+    "ammo": "tacz:12g",
+    "capacity": 2,
+    "fire_mode": "BURST"
+  },
+  {
+    "id": "tacz:deagle",
+    "display": "tacz:deagle_display",
+    "ammo": "tacz:50ae",
+    "capacity": 7,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:deagle_golden",
+    "display": "tacz:deagle_golden_display",
+    "ammo": "tacz:357mag",
+    "capacity": 9,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:fn_evolys",
+    "display": "tacz:fn_evolys_display",
+    "ammo": "tacz:308",
+    "capacity": 75,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:fn_fal",
+    "display": "tacz:fn_fal_display",
+    "ammo": "tacz:308",
+    "capacity": 20,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:g36k",
+    "display": "tacz:g36k_display",
+    "ammo": "tacz:556x45",
+    "capacity": 30,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:glock_17",
+    "display": "tacz:glock_17_display",
+    "ammo": "tacz:9mm",
+    "capacity": 17,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:hk416d",
+    "display": "tacz:hk416d_display",
+    "ammo": "tacz:556x45",
+    "capacity": 30,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:hk_g3",
+    "display": "tacz:hk_g3_display",
+    "ammo": "tacz:308",
+    "capacity": 20,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:hk_mk23",
+    "display": "tacz:hk_mk23_display",
+    "ammo": "tacz:45acp",
+    "capacity": 12,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:hk_mp5a5",
+    "display": "tacz:hk_mp5a5_display",
+    "ammo": "tacz:9mm",
+    "capacity": 30,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:kar98",
+    "display": "tacz:kar98_display",
+    "ammo": "tacz:792x57",
+    "capacity": 4,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:lonetrail",
+    "display": "tacz:lonetrail_display",
+    "ammo": "tacz:30_06",
+    "capacity": 1,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:m1014",
+    "display": "tacz:m1014_display",
+    "ammo": "tacz:12g",
+    "capacity": 6,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:m107",
+    "display": "tacz:m107_display",
+    "ammo": "tacz:50bmg",
+    "capacity": 10,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:m16a1",
+    "display": "tacz:m16a1_display",
+    "ammo": "tacz:556x45",
+    "capacity": 20,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:m16a4",
+    "display": "tacz:m16a4_display",
+    "ammo": "tacz:556x45",
+    "capacity": 30,
+    "fire_mode": "BURST"
+  },
+  {
+    "id": "tacz:m1911",
+    "display": "tacz:m1911_display",
+    "ammo": "tacz:45acp",
+    "capacity": 7,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:m249",
+    "display": "tacz:m249_display",
+    "ammo": "tacz:556x45",
+    "capacity": 75,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:m320",
+    "display": "tacz:m320_display",
+    "ammo": "tacz:40mm",
+    "capacity": 1,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:m4a1",
+    "display": "tacz:m4a1_display",
+    "ammo": "tacz:556x45",
+    "capacity": 30,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:m700",
+    "display": "tacz:m700_display",
+    "ammo": "tacz:30_06",
+    "capacity": 5,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:m870",
+    "display": "tacz:m870_display",
+    "ammo": "tacz:12g",
+    "capacity": 5,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:m95",
+    "display": "tacz:m95_display",
+    "ammo": "tacz:50bmg",
+    "capacity": 5,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:m9a4",
+    "display": "tacz:m9a4_display",
+    "ammo": "tacz:9mm",
+    "capacity": 17,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:minigun",
+    "display": "tacz:minigun_display",
+    "ammo": "tacz:308",
+    "capacity": 0,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:mk14",
+    "display": "tacz:mk14_display",
+    "ammo": "tacz:308",
+    "capacity": 10,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:p320",
+    "display": "tacz:p320_display",
+    "ammo": "tacz:45acp",
+    "capacity": 12,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:p90",
+    "display": "tacz:p90_display",
+    "ammo": "tacz:57x28",
+    "capacity": 50,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:qbz_191",
+    "display": "tacz:qbz_191_display",
+    "ammo": "tacz:58x42",
+    "capacity": 30,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:qbz_95",
+    "display": "tacz:qbz_95_display",
+    "ammo": "tacz:58x42",
+    "capacity": 30,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:rhino357",
+    "display": "tacz:rhino357_display",
+    "ammo": "tacz:357mag",
+    "capacity": 6,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:rpg7",
+    "display": "tacz:rpg7_display",
+    "ammo": "tacz:rpg_rocket",
+    "capacity": 1,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:rpk",
+    "display": "tacz:rpk_display",
+    "ammo": "tacz:762x39",
+    "capacity": 40,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:scar_h",
+    "display": "tacz:scar_h_display",
+    "ammo": "tacz:308",
+    "capacity": 20,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:scar_l",
+    "display": "tacz:scar_l_display",
+    "ammo": "tacz:556x45",
+    "capacity": 30,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:sks_tactical",
+    "display": "tacz:sks_tactical_display",
+    "ammo": "tacz:762x39",
+    "capacity": 10,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:spas_12",
+    "display": "tacz:spas_12_display",
+    "ammo": "tacz:12g",
+    "capacity": 5,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:spr15hb",
+    "display": "tacz:spr15hb_display",
+    "ammo": "tacz:556x45",
+    "capacity": 15,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:springfield1873",
+    "display": "tacz:springfield1873_display",
+    "ammo": "tacz:45_70",
+    "capacity": 1,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:taurus500",
+    "display": "tacz:taurus500_display",
+    "ammo": "tacz:500mag",
+    "capacity": 5,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:taurus943",
+    "display": "tacz:taurus943_display",
+    "ammo": "tacz:22wmr",
+    "capacity": 8,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:timeless50",
+    "display": "tacz:timeless50_display",
+    "ammo": "tacz:50ae",
+    "capacity": 8,
+    "fire_mode": "SEMI"
+  },
+  {
+    "id": "tacz:type_81",
+    "display": "tacz:type_81_display",
+    "ammo": "tacz:762x39",
+    "capacity": 30,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:ump45",
+    "display": "tacz:ump45_display",
+    "ammo": "tacz:45acp",
+    "capacity": 25,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:uzi",
+    "display": "tacz:uzi_display",
+    "ammo": "tacz:9mm",
+    "capacity": 20,
+    "fire_mode": "AUTO"
+  },
+  {
+    "id": "tacz:vector45",
+    "display": "tacz:vector45_display",
+    "ammo": "tacz:45acp",
+    "capacity": 20,
+    "fire_mode": "AUTO"
+  }
+]

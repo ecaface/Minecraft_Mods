@@ -1,0 +1,81 @@
+# --- Gradle ---
+.gradle/
+.gradle-user/
+.gradle-user2/
+build/
+**/build/
+**/.gradle/
+**/.gradle-user/
+**/.gradle-user2/
+
+# --- Java Compiled Files ---
+*.class
+*.jar
+**/*.class
+**/*.jar
+
+# --- IDEs and Editors ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.classpath
+.project
+.metadata/
+.factorypath
+bin/
+out/
+**/bin/
+**/out/
+**/.idea/
+**/*.iml
+
+# VS Code specific directories (keeping settings.json, but ignoring workspace/local data)
+.vscode/ipch/
+.vscode/history/
+.vscode/*.log
+.vscode/*.db
+.vscode/workspaceStorage/
+**/.vscode/ipch/
+**/.vscode/history/
+**/.vscode/*.log
+**/.vscode/*.db
+**/.vscode/workspaceStorage/
+
+# --- Minecraft Modding ---
+# Ignore the Minecraft test environment run directories (saves, logs, crash-reports, config, mods)
+run/
+run-client/
+run-server/
+run-gameTestServer/
+saves/
+logs/
+crash-reports/
+**/run/
+**/run-client/
+**/run-server/
+**/run-gameTestServer/
+**/saves/
+**/logs/
+**/crash-reports/
+**/usernamecache.json
+**/usercache.json
+
+# --- Temporary Files ---
+.tmp/
+.tmp2/
+tmp/
+temp/
+**/.tmp/
+**/.tmp2/
+**/tmp/
+**/temp/
+
+# --- OS Files ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+**/Thumbs.db
+**/Desktop.ini
+**/.DS_Store

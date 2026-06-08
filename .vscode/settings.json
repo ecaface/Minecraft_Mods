@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "mcbr_forge_mod"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
+}

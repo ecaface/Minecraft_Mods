@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": { "min": 4, "max": 6 },
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:golden_apple", "weight": 10 }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:empty", "weight": 6 },
+        { "type": "minecraft:loot_table", "name": "mcbr:chests/sets/armor_diamond_1", "weight": 3 },
+        { "type": "minecraft:loot_table", "name": "mcbr:chests/sets/armor_diamond_2", "weight": 3 },
+        { "type": "minecraft:loot_table", "name": "mcbr:chests/sets/armor_diamond_3", "weight": 2 },
+        { "type": "minecraft:loot_table", "name": "mcbr:chests/sets/armor_diamond_full", "weight": 1 }
+      ]
+    }
+  ]
+}

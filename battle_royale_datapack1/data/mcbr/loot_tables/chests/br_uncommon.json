@@ -1,0 +1,171 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_ak47",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_aug",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_fn_evolys",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_fn_fal",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_g36k",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_hk416d",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_hk_g3",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_kar98",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_lonetrail",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_m16a1",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_m16a4",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_m249",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_m700",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_m95",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_mk14",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_p90",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_qbz_191",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_qbz_95",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_rhino357",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_rpk",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_scar_h",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_sks_tactical",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_spr15hb",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/uncommon_springfield1873",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 4,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/armor_diamond_1",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/armor_diamond_2",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/armor_diamond_3",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/armor_diamond_full",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

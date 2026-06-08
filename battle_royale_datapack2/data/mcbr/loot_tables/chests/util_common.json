@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": { "min": 4, "max": 6 },
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:bread", "weight": 12 },
+        { "type": "minecraft:item", "name": "minecraft:cooked_beef", "weight": 8 },
+        { "type": "minecraft:item", "name": "minecraft:iron_ingot", "weight": 6 }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:empty", "weight": 8 },
+        { "type": "minecraft:loot_table", "name": "mcbr:chests/sets/armor_iron_1", "weight": 4 },
+        { "type": "minecraft:loot_table", "name": "mcbr:chests/sets/armor_iron_2", "weight": 3 },
+        { "type": "minecraft:loot_table", "name": "mcbr:chests/sets/armor_iron_3", "weight": 2 },
+        { "type": "minecraft:loot_table", "name": "mcbr:chests/sets/armor_iron_full", "weight": 1 }
+      ]
+    }
+  ]
+}

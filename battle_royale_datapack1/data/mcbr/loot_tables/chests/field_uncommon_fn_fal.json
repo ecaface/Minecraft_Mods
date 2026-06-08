@@ -1,0 +1,6 @@
+{
+  "pools": [
+    { "rolls": 1, "entries": [ { "type": "minecraft:loot_table", "name": "mcbr:chests/sets/uncommon_fn_fal" } ] },
+    { "rolls": 1, "entries": [ { "type": "minecraft:loot_table", "name": "mcbr:chests/util_uncommon" } ] }
+  ]
+}

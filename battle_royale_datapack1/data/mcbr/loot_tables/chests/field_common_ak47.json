@@ -1,0 +1,6 @@
+{
+  "pools": [
+    { "rolls": 1, "entries": [ { "type": "minecraft:loot_table", "name": "mcbr:chests/sets/common_ak47" } ] },
+    { "rolls": 1, "entries": [ { "type": "minecraft:loot_table", "name": "mcbr:chests/util_common" } ] }
+  ]
+}

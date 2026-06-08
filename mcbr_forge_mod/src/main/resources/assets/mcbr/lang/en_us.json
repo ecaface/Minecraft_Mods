@@ -1,0 +1,6 @@
+{
+  "commands.mcbr.start.success": "Battle Royale countdown started.",
+  "commands.mcbr.start.fail": "Could not start Battle Royale.",
+  "commands.mcbr.reset.success": "Battle Royale reset complete.",
+  "commands.mcbr.status": "Phase: %s, players: %s, alive: %s"
+}
