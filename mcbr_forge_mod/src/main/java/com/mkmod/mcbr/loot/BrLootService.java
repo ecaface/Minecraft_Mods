@@ -100,6 +100,15 @@ public final class BrLootService {
             return;
         }
 
+        // Check if the container already has a vanilla/datapack loot table configured.
+        // If it does, we let vanilla loot generation unpack it when the player opens it,
+        // and avoid double-filling the container with random Java loot.
+        if (container.saveWithoutMetadata().contains("LootTable")) {
+            persistentData.putBoolean(MCBR_LOOT_TAG, true);
+            blockEntity.setChanged();
+            return;
+        }
+
         if (!isReallyEmpty(container)) {
             persistentData.putBoolean(MCBR_LOOT_TAG, true);
             blockEntity.setChanged();
