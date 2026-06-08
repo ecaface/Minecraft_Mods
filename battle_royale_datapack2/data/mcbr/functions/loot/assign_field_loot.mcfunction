@@ -23,14 +23,14 @@ execute if score $chest_player_count mcbr.tmp matches 2..4 run tag @e[type=minec
 execute if score $chest_player_count mcbr.tmp matches 4 run tag @e[type=minecraft:marker,tag=mcbr_chest_center,tag=!mcbr_chest_rare,sort=random,limit=1] add mcbr_chest_rare
 
 # Uncommon selection
-execute if score $chest_player_count mcbr.tmp matches 2 run tag @e[type=minecraft:marker,tag=!mcbr_chest_rare,sort=random,limit=2] add mcbr_chest_uncommon
-execute if score $chest_player_count mcbr.tmp matches 3 run tag @e[type=minecraft:marker,tag=!mcbr_chest_rare,sort=random,limit=5] add mcbr_chest_uncommon
-execute if score $chest_player_count mcbr.tmp matches 4 run tag @e[type=minecraft:marker,tag=!mcbr_chest_rare,sort=random,limit=10] add mcbr_chest_uncommon
+execute if score $chest_player_count mcbr.tmp matches 2 run tag @e[type=minecraft:marker,tag=mcbr_chest_candidate,tag=!mcbr_chest_rare,sort=random,limit=2] add mcbr_chest_uncommon
+execute if score $chest_player_count mcbr.tmp matches 3 run tag @e[type=minecraft:marker,tag=mcbr_chest_candidate,tag=!mcbr_chest_rare,sort=random,limit=5] add mcbr_chest_uncommon
+execute if score $chest_player_count mcbr.tmp matches 4 run tag @e[type=minecraft:marker,tag=mcbr_chest_candidate,tag=!mcbr_chest_rare,sort=random,limit=10] add mcbr_chest_uncommon
 
 # Common selection
-execute if score $chest_player_count mcbr.tmp matches 2 run tag @e[type=minecraft:marker,tag=!mcbr_chest_rare,tag=!mcbr_chest_uncommon,sort=random,limit=8] add mcbr_chest_common
-execute if score $chest_player_count mcbr.tmp matches 3 run tag @e[type=minecraft:marker,tag=!mcbr_chest_rare,tag=!mcbr_chest_uncommon,sort=random,limit=12] add mcbr_chest_common
-execute if score $chest_player_count mcbr.tmp matches 4 run tag @e[type=minecraft:marker,tag=!mcbr_chest_rare,tag=!mcbr_chest_uncommon,sort=random,limit=16] add mcbr_chest_common
+execute if score $chest_player_count mcbr.tmp matches 2 run tag @e[type=minecraft:marker,tag=mcbr_chest_candidate,tag=!mcbr_chest_rare,tag=!mcbr_chest_uncommon,sort=random,limit=8] add mcbr_chest_common
+execute if score $chest_player_count mcbr.tmp matches 3 run tag @e[type=minecraft:marker,tag=mcbr_chest_candidate,tag=!mcbr_chest_rare,tag=!mcbr_chest_uncommon,sort=random,limit=12] add mcbr_chest_common
+execute if score $chest_player_count mcbr.tmp matches 4 run tag @e[type=minecraft:marker,tag=mcbr_chest_candidate,tag=!mcbr_chest_rare,tag=!mcbr_chest_uncommon,sort=random,limit=16] add mcbr_chest_common
 
 tag @e[type=minecraft:marker,tag=mcbr_chest_common] add mcbr_chest_active
 tag @e[type=minecraft:marker,tag=mcbr_chest_uncommon] add mcbr_chest_active
