@@ -1,125 +1,122 @@
-# 16블록 간격 격자 위치를 후보지로 직접 생성한다.
-
-summon minecraft:marker 920.5 200 920.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 936.5 200 920.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 952.5 200 920.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 968.5 200 920.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 984.5 200 920.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1000.5 200 920.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1016.5 200 920.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1032.5 200 920.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1048.5 200 920.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1064.5 200 920.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1080.5 200 920.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 920.5 200 936.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 936.5 200 936.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 952.5 200 936.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 968.5 200 936.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 984.5 200 936.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1000.5 200 936.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1016.5 200 936.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1032.5 200 936.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1048.5 200 936.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1064.5 200 936.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1080.5 200 936.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 920.5 200 952.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 936.5 200 952.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 952.5 200 952.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 968.5 200 952.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 984.5 200 952.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1000.5 200 952.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1016.5 200 952.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1032.5 200 952.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1048.5 200 952.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1064.5 200 952.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1080.5 200 952.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 920.5 200 968.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 936.5 200 968.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 952.5 200 968.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 968.5 200 968.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 984.5 200 968.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1000.5 200 968.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1016.5 200 968.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1032.5 200 968.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1048.5 200 968.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1064.5 200 968.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1080.5 200 968.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 920.5 200 984.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 936.5 200 984.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 952.5 200 984.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 968.5 200 984.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 984.5 200 984.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1000.5 200 984.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1016.5 200 984.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1032.5 200 984.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1048.5 200 984.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1064.5 200 984.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1080.5 200 984.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 920.5 200 1000.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 936.5 200 1000.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 952.5 200 1000.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 968.5 200 1000.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 984.5 200 1000.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1000.5 200 1000.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1016.5 200 1000.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1032.5 200 1000.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1048.5 200 1000.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1064.5 200 1000.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1080.5 200 1000.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 920.5 200 1016.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 936.5 200 1016.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 952.5 200 1016.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 968.5 200 1016.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 984.5 200 1016.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1000.5 200 1016.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1016.5 200 1016.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1032.5 200 1016.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1048.5 200 1016.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1064.5 200 1016.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1080.5 200 1016.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 920.5 200 1032.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 936.5 200 1032.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 952.5 200 1032.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 968.5 200 1032.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 984.5 200 1032.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1000.5 200 1032.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1016.5 200 1032.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1032.5 200 1032.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1048.5 200 1032.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1064.5 200 1032.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1080.5 200 1032.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 920.5 200 1048.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 936.5 200 1048.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 952.5 200 1048.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 968.5 200 1048.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 984.5 200 1048.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1000.5 200 1048.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1016.5 200 1048.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1032.5 200 1048.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1048.5 200 1048.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1064.5 200 1048.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1080.5 200 1048.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 920.5 200 1064.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 936.5 200 1064.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 952.5 200 1064.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 968.5 200 1064.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 984.5 200 1064.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1000.5 200 1064.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1016.5 200 1064.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1032.5 200 1064.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1048.5 200 1064.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1064.5 200 1064.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1080.5 200 1064.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 920.5 200 1080.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 936.5 200 1080.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 952.5 200 1080.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 968.5 200 1080.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 984.5 200 1080.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1000.5 200 1080.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1016.5 200 1080.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1032.5 200 1080.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1048.5 200 1080.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1064.5 200 1080.5 {Tags:["mcbr_candidate_probe"]}
-summon minecraft:marker 1080.5 200 1080.5 {Tags:["mcbr_candidate_probe"]}
-# Dynamic candidate counting will be handled at the end of the scanning phase.
-
+# 16블록 간격 격자 위치를 후보지로 직접 생성한다 (상대 좌표 버젼)
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-79.5 200 ~-79.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-63.5 200 ~-79.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-47.5 200 ~-79.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-31.5 200 ~-79.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-15.5 200 ~-79.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~0.5 200 ~-79.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~16.5 200 ~-79.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~32.5 200 ~-79.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~48.5 200 ~-79.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~64.5 200 ~-79.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~80.5 200 ~-79.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-79.5 200 ~-63.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-63.5 200 ~-63.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-47.5 200 ~-63.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-31.5 200 ~-63.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-15.5 200 ~-63.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~0.5 200 ~-63.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~16.5 200 ~-63.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~32.5 200 ~-63.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~48.5 200 ~-63.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~64.5 200 ~-63.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~80.5 200 ~-63.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-79.5 200 ~-47.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-63.5 200 ~-47.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-47.5 200 ~-47.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-31.5 200 ~-47.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-15.5 200 ~-47.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~0.5 200 ~-47.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~16.5 200 ~-47.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~32.5 200 ~-47.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~48.5 200 ~-47.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~64.5 200 ~-47.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~80.5 200 ~-47.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-79.5 200 ~-31.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-63.5 200 ~-31.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-47.5 200 ~-31.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-31.5 200 ~-31.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-15.5 200 ~-31.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~0.5 200 ~-31.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~16.5 200 ~-31.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~32.5 200 ~-31.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~48.5 200 ~-31.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~64.5 200 ~-31.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~80.5 200 ~-31.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-79.5 200 ~-15.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-63.5 200 ~-15.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-47.5 200 ~-15.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-31.5 200 ~-15.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-15.5 200 ~-15.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~0.5 200 ~-15.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~16.5 200 ~-15.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~32.5 200 ~-15.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~48.5 200 ~-15.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~64.5 200 ~-15.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~80.5 200 ~-15.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-79.5 200 ~0.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-63.5 200 ~0.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-47.5 200 ~0.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-31.5 200 ~0.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-15.5 200 ~0.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~0.5 200 ~0.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~16.5 200 ~0.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~32.5 200 ~0.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~48.5 200 ~0.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~64.5 200 ~0.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~80.5 200 ~0.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-79.5 200 ~16.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-63.5 200 ~16.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-47.5 200 ~16.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-31.5 200 ~16.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-15.5 200 ~16.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~0.5 200 ~16.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~16.5 200 ~16.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~32.5 200 ~16.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~48.5 200 ~16.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~64.5 200 ~16.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~80.5 200 ~16.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-79.5 200 ~32.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-63.5 200 ~32.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-47.5 200 ~32.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-31.5 200 ~32.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-15.5 200 ~32.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~0.5 200 ~32.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~16.5 200 ~32.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~32.5 200 ~32.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~48.5 200 ~32.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~64.5 200 ~32.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~80.5 200 ~32.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-79.5 200 ~48.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-63.5 200 ~48.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-47.5 200 ~48.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-31.5 200 ~48.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-15.5 200 ~48.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~0.5 200 ~48.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~16.5 200 ~48.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~32.5 200 ~48.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~48.5 200 ~48.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~64.5 200 ~48.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~80.5 200 ~48.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-79.5 200 ~64.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-63.5 200 ~64.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-47.5 200 ~64.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-31.5 200 ~64.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-15.5 200 ~64.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~0.5 200 ~64.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~16.5 200 ~64.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~32.5 200 ~64.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~48.5 200 ~64.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~64.5 200 ~64.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~80.5 200 ~64.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-79.5 200 ~80.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-63.5 200 ~80.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-47.5 200 ~80.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-31.5 200 ~80.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~-15.5 200 ~80.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~0.5 200 ~80.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~16.5 200 ~80.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~32.5 200 ~80.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~48.5 200 ~80.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~64.5 200 ~80.5 {Tags:["mcbr_candidate_probe"]}
+execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run summon minecraft:marker ~80.5 200 ~80.5 {Tags:["mcbr_candidate_probe"]}

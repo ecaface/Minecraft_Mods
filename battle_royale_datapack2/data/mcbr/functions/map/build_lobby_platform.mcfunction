@@ -1,56 +1,68 @@
-# Build a simple floating lobby platform at 0 100 0.
-# This creates a 17x17 platform, glass rails, lighting, and a small info wall.
+# Build a simple floating lobby platform dynamically at the configured lobby coords.
 # Warning: clears a local area around the lobby before rebuilding.
 
-# Clear the working area around the lobby.
-fill -12 98 -12 12 108 12 air
+# 1. Summon temporary lobby builder marker at the config coordinates:
+execute positioned 0 0 0 run summon minecraft:marker ~ ~ ~ {Tags:["mcbr_lobby_builder"]}
+execute store result entity @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] Pos[0] double 1 run scoreboard players get $lobby_x mcbr.config
+execute store result entity @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] Pos[1] double 1 run scoreboard players get $lobby_y mcbr.config
+execute store result entity @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] Pos[2] double 1 run scoreboard players get $lobby_z mcbr.config
 
-# Main floor and outer frame.
-fill -8 99 -8 8 99 8 minecraft:spruce_planks
-fill -8 99 -8 8 99 -8 minecraft:stone_bricks
-fill -8 99 8 8 99 8 minecraft:stone_bricks
-fill -8 99 -8 -8 99 8 minecraft:stone_bricks
-fill 8 99 -8 8 99 8 minecraft:stone_bricks
+# 2. Clear the working area around the lobby relative to the builder marker
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run fill ~-12 ~-2 ~-12 ~12 ~8 ~12 air
 
-# Four support pillars for the floating look.
-fill -7 94 -7 -7 98 -7 minecraft:stone_bricks
-fill 7 94 -7 7 98 -7 minecraft:stone_bricks
-fill -7 94 7 -7 98 7 minecraft:stone_bricks
-fill 7 94 7 7 98 7 minecraft:stone_bricks
+# 3. Main floor and outer frame relative to builder marker
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run fill ~-8 ~-1 ~-8 ~8 ~-1 ~8 minecraft:spruce_planks
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run fill ~-8 ~-1 ~-8 ~8 ~-1 ~-8 minecraft:stone_bricks
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run fill ~-8 ~-1 ~8 ~8 ~-1 ~8 minecraft:stone_bricks
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run fill ~-8 ~-1 ~-8 ~-8 ~-1 ~8 minecraft:stone_bricks
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run fill ~8 ~-1 ~-8 ~8 ~-1 ~8 minecraft:stone_bricks
 
-# Fully enclosed perimeter walls.
-fill -8 100 -8 8 102 -8 minecraft:glass
-fill -8 100 8 8 102 8 minecraft:glass
-fill -8 100 -7 -8 102 7 minecraft:glass
-fill 8 100 -7 8 102 7 minecraft:glass
+# 4. Four support pillars for the floating look
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run fill ~-7 ~-6 ~-7 ~-7 ~-2 ~-7 minecraft:stone_bricks
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run fill ~7 ~-6 ~-7 ~7 ~-2 ~-7 minecraft:stone_bricks
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run fill ~-7 ~-6 ~7 ~-7 ~-2 ~7 minecraft:stone_bricks
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run fill ~7 ~-6 ~7 ~7 ~-2 ~7 minecraft:stone_bricks
 
-# Lighting points.
-setblock -6 99 -6 minecraft:sea_lantern
-setblock 6 99 -6 minecraft:sea_lantern
-setblock -6 99 6 minecraft:sea_lantern
-setblock 6 99 6 minecraft:sea_lantern
-setblock 0 99 0 minecraft:sea_lantern
+# 5. Fully enclosed perimeter walls
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run fill ~-8 ~0 ~-8 ~8 ~2 ~-8 minecraft:glass
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run fill ~-8 ~0 ~8 ~8 ~2 ~8 minecraft:glass
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run fill ~-8 ~0 ~-7 ~-8 ~2 ~7 minecraft:glass
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run fill ~8 ~0 ~-7 ~8 ~2 ~7 minecraft:glass
 
-# Center marker where players gather.
-fill -1 99 -1 1 99 1 minecraft:polished_andesite
-setblock 0 99 0 minecraft:beacon
+# 6. Lighting points
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run setblock ~-6 ~-1 ~-6 minecraft:sea_lantern
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run setblock ~6 ~-1 ~-6 minecraft:sea_lantern
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run setblock ~-6 ~-1 ~6 minecraft:sea_lantern
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run setblock ~6 ~-1 ~6 minecraft:sea_lantern
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run setblock ~0 ~-1 ~0 minecraft:sea_lantern
 
-# Small info wall on the north side.
-fill -3 100 -6 3 103 -6 minecraft:stone_bricks
-fill -2 101 -5 2 102 -5 minecraft:air
+# 7. Center marker where players gather
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 minecraft:polished_andesite
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run setblock ~0 ~-1 ~0 minecraft:beacon
 
-# Sign line placeholders for manual editing later.
-setblock 0 100 -4 minecraft:oak_sign{front_text:{messages:['{"text":"Ethan Battle Royale","color":"gold"}','{"text":"Wait in lobby","color":"yellow"}','{"text":"Use /function","color":"gray"}','{"text":"mcbr:admin/start_game","color":"green"}']}} replace
-setblock -2 100 -4 minecraft:oak_sign{front_text:{messages:['{"text":"Combat Zone","color":"red"}','{"text":"Center: 1000 1000","color":"white"}','{"text":"Random start","color":"white"}','{"text":"Worldborder enabled","color":"white"}']}} replace
-setblock 2 100 -4 minecraft:oak_sign{front_text:{messages:['{"text":"Phase 1","color":"aqua"}','{"text":"Solo mode","color":"white"}','{"text":"TACZ chest loot","color":"white"}','{"text":"Return here on reset","color":"white"}']}} replace
+# 8. Small info wall on the north side
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run fill ~-3 ~0 ~-6 ~3 ~3 ~-6 minecraft:stone_bricks
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run fill ~-2 ~1 ~-5 ~2 ~2 ~-5 minecraft:air
 
-# Host start pedestal on the south side.
-setblock 0 99 5 minecraft:iron_block
-setblock 0 100 5 minecraft:lever[face=floor,facing=north,powered=false]
-setblock 0 100 4 minecraft:oak_sign{front_text:{messages:['{"text":"Host Start","color":"gold"}','{"text":"Host stands here","color":"yellow"}','{"text":"Flip lever to start","color":"green"}','{"text":"Only host works","color":"gray"}']}} replace
+# 9. Sign line placeholders
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run setblock ~0 ~0 ~-4 minecraft:oak_sign{front_text:{messages:['{"text":"Ethan Battle Royale","color":"gold"}','{"text":"Wait in lobby","color":"yellow"}','{"text":"Use /function","color":"gray"}','{"text":"mcbr:admin/start_game","color":"green"}']}} replace
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run setblock ~-2 ~0 ~-4 minecraft:oak_sign{front_text:{messages:['{"text":"Combat Zone","color":"red"}','{"text":"Center: Dynamic","color":"white"}','{"text":"Random start","color":"white"}','{"text":"Worldborder enabled","color":"white"}']}} replace
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run setblock ~2 ~0 ~-4 minecraft:oak_sign{front_text:{messages:['{"text":"Phase 2","color":"aqua"}','{"text":"Solo/Team modes","color":"white"}','{"text":"TACZ chest loot","color":"white"}','{"text":"Return here on reset","color":"white"}']}} replace
 
-# Spawn-safe top slab markers near the center.
-setblock -2 100 0 minecraft:spruce_slab[type=top]
-setblock 2 100 0 minecraft:spruce_slab[type=top]
-setblock 0 100 -2 minecraft:spruce_slab[type=top]
-setblock 0 100 2 minecraft:spruce_slab[type=top]
+# 10. Host start pedestal on the south side
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run setblock ~0 ~-1 ~5 minecraft:iron_block
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run setblock ~0 ~0 ~5 minecraft:lever[face=floor,facing=north,powered=false]
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run setblock ~0 ~0 ~4 minecraft:oak_sign{front_text:{messages:['{"text":"Host Start","color":"gold"}','{"text":"Host stands here","color":"yellow"}','{"text":"Flip lever to start","color":"green"}','{"text":"Only host works","color":"gray"}']}} replace
+
+# 11. Spawn-safe top slab markers near the center
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run setblock ~-2 ~0 ~0 minecraft:spruce_slab[type=top]
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run setblock ~2 ~0 ~0 minecraft:spruce_slab[type=top]
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run setblock ~0 ~0 ~-2 minecraft:spruce_slab[type=top]
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run setblock ~0 ~0 ~2 minecraft:spruce_slab[type=top]
+
+# 12. Create permanent lobby spawn marker
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run kill @e[type=minecraft:marker,tag=mcbr_lobby_spawn]
+execute at @e[type=minecraft:marker,tag=mcbr_lobby_builder,limit=1] run summon minecraft:marker ~0 ~0.5 ~0 {Tags:["mcbr_lobby_spawn"]}
+
+# Clean up lobby builder
+kill @e[type=minecraft:marker,tag=mcbr_lobby_builder]

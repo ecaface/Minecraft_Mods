@@ -27,29 +27,13 @@ scoreboard players set $end_ticks_default mcbr.config 160
 # 라운드 준비 단계에서 맵 복원을 실행할지 결정하는 스위치입니다.
 scoreboard players set $arena_restore_enabled mcbr.config 0
 
-# Lobby position defaults
-# 로비 X 좌표입니다.
-scoreboard players set $lobby_x mcbr.config 0
-# 로비 Y 좌표입니다.
-scoreboard players set $lobby_y mcbr.config 100
-# 로비 Z 좌표입니다.
-scoreboard players set $lobby_z mcbr.config 0
+# Dynamic coordinates will be initialized in player/init_player -> admin/init_dynamic_coords.
 
 # Spawn tuning defaults
 # /spreadplayers 실행 시 플레이어 사이 최소 거리입니다.
 scoreboard players set $spread_distance mcbr.config 32
 # 전투 중심점에서 퍼질 수 있는 최대 반경입니다.
 scoreboard players set $spread_range mcbr.config 96
-
-# Border center defaults
-# 전투 보더 중심 X 좌표입니다.
-scoreboard players set $center_x mcbr.config 1000
-# 전투 보더 중심 Z 좌표입니다.
-scoreboard players set $center_z mcbr.config 1000
-
-# 아레나 동적 복원용 중심점 및 영역 크기
-scoreboard players set $arena_center_x mcbr.config 1000
-scoreboard players set $arena_center_z mcbr.config 1000
 scoreboard players set $arena_half_width mcbr.config 144
 # 백업 아레나 상대적 오프셋 (X축 평행이동 거리)
 scoreboard players set $arena_backup_offset_x mcbr.config 992
