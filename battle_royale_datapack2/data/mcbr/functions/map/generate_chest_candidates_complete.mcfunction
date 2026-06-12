@@ -16,6 +16,10 @@ execute as @e[type=minecraft:marker,tag=mcbr_chest_center] run scoreboard player
 tellraw @a [{"text":"[mcbr2] 상자 후보지 자동 스캔이 끝났습니다.","color":"green"}]
 tellraw @a [{"text":"[mcbr2] total=","color":"yellow"},{"score":{"name":"$candidate_count","objective":"mcbr.tmp"},"color":"white"},{"text":", center=","color":"yellow"},{"score":{"name":"$candidate_center_count","objective":"mcbr.tmp"},"color":"white"},{"text":", attempts=","color":"yellow"},{"score":{"name":"$candidate_attempts","objective":"mcbr.tmp"},"color":"white"}]
 
+# If the first match already entered countdown before candidates existed, the normal
+# prepare_round refill already ran with an empty candidate set. Refill once now.
+execute if score $state mcbr.state matches 1 if score $chest_refill_enabled mcbr.config matches 1 run function mcbr:core/refill_chests
+
 # Clean up forceload and center marker
 execute at @e[type=minecraft:marker,tag=mcbr_center_marker,limit=1] run forceload remove ~-120 ~-120 ~120 ~120
 kill @e[type=minecraft:marker,tag=mcbr_center_marker]
