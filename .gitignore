@@ -79,3 +79,16 @@ Desktop.ini
 **/Thumbs.db
 **/Desktop.ini
 **/.DS_Store
+
+
+# --- .NET (C#) ---
+bin/
+obj/
+**/bin/
+**/obj/
+
+# .NET User Secrets, 스타일 가이드 설정 등 추가적인 IDE/툴셋 잔재 방지
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
