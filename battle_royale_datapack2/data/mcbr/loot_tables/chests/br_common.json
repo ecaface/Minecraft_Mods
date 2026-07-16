@@ -62,6 +62,26 @@
           "type": "minecraft:loot_table",
           "name": "mcbr:chests/sets/common_vector45",
           "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/common_b93r",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/common_hk_mk23",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/common_m9a4",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mcbr:chests/sets/common_taurus943",
+          "weight": 10
         }
       ]
     },

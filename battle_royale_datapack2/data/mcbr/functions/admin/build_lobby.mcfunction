@@ -1,6 +1,7 @@
-# Admin helper: build the default lobby platform at 0 100 0.
+# Admin helper: build the dynamic lobby platform at the configured high-altitude lobby position.
 # Warning: clears a small area around the lobby before rebuilding it.
 
+execute if entity @s run function mcbr:admin/set_dynamic_coords
 function mcbr:map/build_lobby_platform
 function mcbr:map/backup_arena
 gamerule doImmediateRespawn true

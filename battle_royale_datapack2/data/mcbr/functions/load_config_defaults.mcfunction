@@ -27,7 +27,7 @@ scoreboard players set $end_ticks_default mcbr.config 160
 # 라운드 준비 단계에서 맵 복원을 실행할지 결정하는 스위치입니다.
 scoreboard players set $arena_restore_enabled mcbr.config 0
 
-# Dynamic coordinates will be initialized in player/init_player -> admin/init_dynamic_coords.
+# Dynamic coordinates are initialized only when an admin runs mcbr:admin/build_lobby.
 
 # Spawn tuning defaults
 # /spreadplayers 실행 시 플레이어 사이 최소 거리입니다.

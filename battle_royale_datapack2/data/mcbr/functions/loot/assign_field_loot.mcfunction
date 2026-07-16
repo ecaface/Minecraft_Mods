@@ -36,15 +36,17 @@ tag @e[type=minecraft:marker,tag=mcbr_chest_candidate,tag=mcbr_chest_common] add
 tag @e[type=minecraft:marker,tag=mcbr_chest_candidate,tag=mcbr_chest_uncommon] add mcbr_chest_active
 tag @e[type=minecraft:marker,tag=mcbr_chest_candidate,tag=mcbr_chest_rare] add mcbr_chest_active
 
+# Assign non-repeating weapons from the unified round pool, regardless of chest tier.
+execute as @e[type=minecraft:marker,tag=mcbr_chest_active] run function mcbr:loot/clear_weapon_slot_tags
+execute as @e[type=minecraft:marker,tag=mcbr_chest_active,sort=random] run function mcbr:loot/assign_next_weapon_slot
+
 # Create fresh chest blocks only for the active slots.
 execute as @e[type=minecraft:marker,tag=mcbr_chest_active] at @s run setblock ~ ~ ~ minecraft:chest[facing=south]
 execute as @e[type=minecraft:marker,tag=mcbr_chest_active] at @s run data remove block ~ ~ ~ LootTable
 execute as @e[type=minecraft:marker,tag=mcbr_chest_active] at @s run data merge block ~ ~ ~ {Items:[]}
 
-# Apply unified loot tables.
-execute as @e[type=minecraft:marker,tag=mcbr_chest_candidate,tag=mcbr_chest_common] at @s if block ~ ~ ~ minecraft:chest run data merge block ~ ~ ~ {LootTable:"mcbr:chests/br_common"}
-execute as @e[type=minecraft:marker,tag=mcbr_chest_candidate,tag=mcbr_chest_uncommon] at @s if block ~ ~ ~ minecraft:chest run data merge block ~ ~ ~ {LootTable:"mcbr:chests/br_uncommon"}
-execute as @e[type=minecraft:marker,tag=mcbr_chest_candidate,tag=mcbr_chest_rare] at @s if block ~ ~ ~ minecraft:chest run data merge block ~ ~ ~ {LootTable:"mcbr:chests/br_rare"}
+# Apply assigned weapon loot directly so field chests cannot duplicate each other.
+execute as @e[type=minecraft:marker,tag=mcbr_chest_active] at @s if block ~ ~ ~ minecraft:chest run function mcbr:loot/apply_weapon_slot_loot
 
 function mcbr:map/forceload_arena_remove
 execute if score $chest_player_count mcbr.tmp matches 2 run tellraw @a [{"text":"[mcbr] Field chests active: common 8, uncommon 2, rare 1","color":"yellow"}]

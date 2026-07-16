@@ -6,8 +6,8 @@ scoreboard players set @s mcbr.alive 0
 scoreboard players set @s mcbr.team 0
 scoreboard players set @s mcbr.deaths 0
 gamemode spectator @s
-# Teleport to the dynamic combat center
-execute positioned 0 120 0 run summon minecraft:marker ~ ~ ~ {Tags:["mcbr_spec_tp_temp"]}
+# Teleport above the dynamic combat center.
+execute positioned 0 240 0 run summon minecraft:marker ~ ~ ~ {Tags:["mcbr_spec_tp_temp"]}
 execute store result entity @e[type=minecraft:marker,tag=mcbr_spec_tp_temp,limit=1] Pos[0] double 1 run scoreboard players get $center_x mcbr.config
 execute store result entity @e[type=minecraft:marker,tag=mcbr_spec_tp_temp,limit=1] Pos[2] double 1 run scoreboard players get $center_z mcbr.config
 tp @s @e[type=minecraft:marker,tag=mcbr_spec_tp_temp,limit=1]

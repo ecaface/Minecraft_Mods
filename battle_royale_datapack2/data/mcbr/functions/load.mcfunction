@@ -9,6 +9,7 @@ scoreboard objectives add mcbr.config dummy
 scoreboard objectives add mcbr.tmp dummy
 scoreboard objectives add mcbr.debug dummy
 scoreboard objectives add mcbr.join dummy
+scoreboard objectives add mcbr.wins dummy
 scoreboard objectives add mcbr.scx dummy
 scoreboard objectives add mcbr.scy dummy
 scoreboard objectives add mcbr.scz dummy

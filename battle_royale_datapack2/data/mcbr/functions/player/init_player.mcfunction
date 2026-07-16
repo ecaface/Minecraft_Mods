@@ -4,13 +4,12 @@
 # 1. Increment join counter and assign join order
 scoreboard players add $join_counter mcbr.tmp 1
 scoreboard players operation @s mcbr.join = $join_counter mcbr.tmp
+scoreboard players set @s mcbr.wins 0
 
-# 2. If this is the very first player, initialize dynamic coordinates based on their current spawn point!
-execute if score $config_initialized mcbr.tmp matches 0 run function mcbr:admin/init_dynamic_coords
-
-# 3. Handle game state lobby routing
+# 2. Handle game state lobby routing.
+# Lobby construction is intentionally manual via mcbr:admin/build_lobby.
 execute if score $state mcbr.state matches 0 run function mcbr:player/join_lobby
 execute if score $state mcbr.state matches 1..3 run function mcbr:player/join_during_match
 
-# 4. Mark player as initialized
+# 3. Mark player as initialized
 tag @s add mcbr_initialized
